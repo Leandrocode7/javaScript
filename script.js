@@ -5,4 +5,3 @@ nombre = "Leandro";
 console.log(nombre);
 console.log(PI);
 
-if()
