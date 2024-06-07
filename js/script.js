@@ -119,3 +119,28 @@ switch (componente){
     alert("Fin del programa");
 }
 }
+
+
+
+class componentee {
+    constructor
+         (hardware, precio, stock){
+            this.hardware = hardware;
+            this.precio = precio;
+            this.stock = stock;
+         }
+
+} 
+
+const componentes = [];
+componentes.push(new componentee("MICROPROCESADOR INTEL CORE I3 10105", "145000","10"));
+componentes.push(new componentee("MICROPROCESADOR CPU AMD RYZEN 5 4600G", "130000","5"));
+componentes.push(new componentee("PLACA DE VIDEO GIGABYTE NVIDIA GEFORCE RTX 3050", "410000","2"));
+componentes.push(new componentee("PLACA DE VIDEO GPU NVIDIA GEFORCE PALIT RTX 4060", "460000","3"));
+
+for (let i = 0; i < componentes.length; i++) {
+    console.log(`Componente ${i + 1}:`);
+    console.log(`Hardware: ${componentes[i].hardware}`);
+    console.log(`Precio: ${componentes[i].precio}`);
+    console.log(`Stock: ${componentes[i].stock}`);
+    console.log('------------------------');}
